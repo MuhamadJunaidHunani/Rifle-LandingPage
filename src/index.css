@@ -5,6 +5,7 @@
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
 }
+
 body {
   margin: 0;
   padding: 0;
@@ -16,6 +17,7 @@ body {
 .dropShadow {
   filter: drop-shadow(7px 7px 20px #584917);
 }
+
 .customFont {
   font-family: 'Orbitron', sans-serif !important;
 }
@@ -26,6 +28,7 @@ body {
     transform: translateY(50px);
     opacity: 0;
   }
+
   100% {
     transform: translateY(0);
     opacity: 1;

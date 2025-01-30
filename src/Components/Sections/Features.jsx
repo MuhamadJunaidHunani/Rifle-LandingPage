@@ -1,6 +1,7 @@
 import { FiRefreshCw, FiSettings, FiTarget } from "react-icons/fi";
 
 const Features = () => {
+
     const features = [
         {
             title: "Performance",
@@ -21,6 +22,7 @@ const Features = () => {
             icon: <FiTarget className="text-[80px] text-white" />,
         },
     ];
+    
     return (
         <section className="bg-black text-white py-[100px] text-center flex flex-col items-center ">
             <div className='text-center w-full customFont text-white pt-[10px] text-[30px] font-semibold flex flex-col items-center justify-start animate-slide-up'>

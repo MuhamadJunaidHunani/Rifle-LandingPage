@@ -12,6 +12,7 @@ body {
   max-width: 1500px;
   min-width: 300px;
   box-sizing: border-box;
+  background-color: black;
 }
 
 .dropShadow {
@@ -37,4 +38,12 @@ body {
 
 .animate-slide-up {
   animation: slideUp 1s ease-out forwards;
+}
+
+.bgImage {
+   background-color: black;
+  background-image: url('./assets/images/rifle4.jpg');
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: 650px auto;
 }
